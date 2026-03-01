@@ -12,6 +12,13 @@ It features:
 * **Discrete Control:** Lead/Lag compensator and PID tuning converted into discrete-time equations.
 * **Embedded C Implementation:** Optimized, bare-metal C code architecture designed for STM32 microcontrollers.
 
+### 📊 Control System Analysis
+Below are the stability and response results obtained from the MATLAB simulations:
+
+| Root Locus Analysis | Step Response Performance |
+| :---: | :---: |
+| ![Root Locus](UAV%20Stability%20Analysis%20-%20Root%20Locus.png) | ![Step Response](UAV%20Step%20Response.png) |
+
 ## Repository Structure
 * `/MATLAB_Analysis`: Contains `.m` scripts for transfer functions, Root Locus plots, and step response simulations.
 * `/STM32_Firmware`: Contains the core `guidance_controller.c` and `guidance_controller.h` algorithms.
