@@ -12,7 +12,7 @@ It features:
 * **Discrete Control:** Lead/Lag compensator and PID tuning converted into discrete-time equations.
 * **Embedded C Implementation:** Optimized, bare-metal C code architecture designed for STM32 microcontrollers.
 
-### 📊 Control System Analysis
+###  Control System Analysis
 Below are the stability and response results obtained from the MATLAB simulations:
 
 | Root Locus Analysis | Step Response Performance |
