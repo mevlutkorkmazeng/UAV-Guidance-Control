@@ -19,6 +19,16 @@ Below are the stability and response results obtained from the MATLAB simulation
 | :---: | :---: |
 | ![Root Locus](UAV%20Stability%20Analysis%20-%20Root%20Locus.png) | ![Step Response](UAV%20Step%20Response.png) |
 
+### Advanced Feature: Sensor Fusion (Kalman Filter)
+In real-world scenarios, UAV sensors are affected by high-frequency noise from motor vibrations. I implemented a **1D Kalman Filter** to estimate the true pitch state accurately, providing a clean signal for the control loop.
+
+![Kalman Filter Performance](UAV_Kalman_Filter_Performance.png)
+
+**Key Observations:**
+* **Red Line:** Represents raw, noisy sensor data.
+* **Blue Line:** Represents the smoothed, optimal estimate after Kalman filtering.
+* **Dashed Black Line:** Represents the true reference state of the UAV.
+
 ## Repository Structure
 * `/MATLAB_Analysis`: Contains `.m` scripts for transfer functions, Root Locus plots, and step response simulations.
 * `/STM32_Firmware`: Contains the core `guidance_controller.c` and `guidance_controller.h` algorithms.
