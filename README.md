@@ -50,3 +50,7 @@ The following simulation demonstrates the UAV's ability to track a high-complexi
 1. **Analyze:** System stability and margin requirements are verified in MATLAB (s-domain).
 2. **Discretize:** Continuous-time controllers are converted to discrete-time (z-domain) for digital execution.
 3. **Implement:** The algorithm is written in standard C for real-time execution, ensuring no blocking delays and high performance.
+
+## How to Use
+1. **MATLAB Simulations:** Open the scripts in the `/MATLAB_Analysis` folder and run `uav_3d_trajectory_tracking.m` to see the autonomous guidance performance.
+2. **Firmware:** The C files in `/STM32_Firmware` are written in standard C99 and are ready to be integrated into any STM32 CubeIDE project.
