@@ -22,6 +22,19 @@ Below are the stability and response results obtained from the MATLAB simulation
 ### Advanced Feature: Sensor Fusion (Kalman Filter)
 In real-world scenarios, UAV sensors are affected by high-frequency noise from motor vibrations. I implemented a **1D Kalman Filter** to estimate the true pitch state accurately, providing a clean signal for the control loop.
 
+## Advanced Feature: 3D Mission Planning & Autonomous Guidance
+Beyond simple stabilization, this project includes a **Mission Planner** module that enables the UAV to follow complex 3D trajectories autonomously.
+
+### 3D Trajectory Tracking Analysis
+The following simulation demonstrates the UAV's ability to track a high-complexity spiral mission path while compensating for sensor noise and environmental disturbances in real-time:
+
+![3D Trajectory Tracking](UAV%203D%20Mission%20Tracking.png)
+
+**Key Technical Highlights:**
+* **Trajectory Generation:** Autonomous 3D spiral mission profiling using parametric equations.
+* **Guidance Law:** Implementation of trigonometric-based steering commands for waypoint navigation.
+* **Error Minimization:** Integration of Kalman Filter outputs to ensure smooth flight paths and reduced jitter.
+
 ![Kalman Filter Performance](UAV_Kalman_Filter_Performance.png)
 
 **Key Observations:**
