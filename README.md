@@ -2,7 +2,7 @@
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-e07328?style=for-the-badge&logo=mathworks&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white) 
 
 ## Project Overview
 This repository contains a discrete-time flight control and guidance algorithm designed for Unmanned Aerial Vehicles (UAVs). The project bridges the gap between theoretical control systems and bare-metal embedded software, a critical requirement for modern defense and aerospace applications.
